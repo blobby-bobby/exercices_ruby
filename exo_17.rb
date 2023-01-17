@@ -14,7 +14,7 @@ etages.times do |i|
     # La largeur des espaces avant les blocs
     marge = etages - (i + 1)
 
-    # Le nombre de blocs, mis au chiffre impair sup le plus proche
+    # Le nombre de blocs, mis au chiffre impair sur le plus proche
     ligne_blocs = (i * 2) + 1
 
     # Disposition de l'étage, d'abord la marge puis les blocs
