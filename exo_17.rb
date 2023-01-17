@@ -8,9 +8,6 @@ etages = gets.chomp.to_i
 bloc = "#"
 espace = " "
 
-#Variable pour commencer l'itération et la construction de la pyramide
-i = 1
-
 puts "Voici la pyramide :"
 
 etages.times do |i|
